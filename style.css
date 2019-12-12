@@ -1,57 +1,72 @@
-.towerContainer {
-  display: flex;
-  justify-content: space-around;
+.towerContainer{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+    
 }
 
 .tower {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  height: 600px;
-  width: 70px;
-  background-color: burlywood;
-  margin: 50px;
-}
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 600px;
+    width: 70px;
+    background-color: burlywood;
+    margin: 50px;
 
-#d4 {
-  width: 400px;
-  height: 80px;
-  padding: 10px;
-  margin: 0px;
-  color: green;
-  border: solid;
-  right: 150px;
-  background-color: green;
-  border-radius: 15px;
-}
-#d3 {
-  width: 300px;
-  height: 75px;
-  padding: 10px;
-  margin: 0px;
-  color: blueviolet;
-  border: solid;
-  background-color: blueviolet;
-  border-radius: 15px;
-}
-#d2 {
-  width: 200px;
-  height: 70px;
-  padding: 10px;
-  margin: 0px;
-  color: orangered;
-  border: solid;
-  background-color: orangered;
-  border-radius: 15px;
-}
-#d1 {
-  width: 100px;
-  height: 65px;
-  padding: 10px;
-  margin: 0px;
-  color: brown;
-  border: solid;
-  background-color: brown;
-  border-radius: 15px;
-}
+    }
+
+    #d4 {
+        width: 400px;
+        height: 80px;
+        padding: 10px;
+        margin: 0px;
+        color: green;
+        right: 150px;
+        background-color: green;
+        border-radius: 15px
+
+        }
+    #d3 {
+        width: 300px;
+        height: 75px;
+        padding: 10px;
+        margin: 0px;
+        color: blueviolet;
+        background-color: blueviolet;
+        border-radius: 15px;
+
+        }
+        #d2 {
+            width: 200px;
+            height: 70px;
+            padding: 10px;
+            margin: 0px;
+            color :orangered;
+            background-color: orangered;
+            border-radius: 15px;
+
+            }
+            #d1 {
+                width: 100px;
+                height: 65px;
+                padding: 10px;
+                margin: 0px;
+                color:brown;
+                background-color: brown;
+                border-radius: 15px;
+
+                }
+
+                .selected{
+                    border: 2px solid black;
+                }
+
+                #float{
+                    font-size: larger;
+                    
+                }
+
